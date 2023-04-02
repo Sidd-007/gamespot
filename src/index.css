@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-color: #171717;
+}
+body {
+  cursor: url('./default.svg'), auto;
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #1e1e1e6a;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #2CD37F;
+    border-radius: 100vh;
+  }
+
+}
+
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 1s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 1s;
+  }
+}
